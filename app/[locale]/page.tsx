@@ -32,7 +32,7 @@ export default async function Home() {
                 {numberOfProducts} товаров
               </p>
               <div className="flex justify-between items-center gap-10">
-                <div className="flex gap-1 justify-between items-center">
+                <button className="flex gap-1 justify-between items-center">
                   <svg
                     width="18"
                     height="16"
@@ -45,8 +45,8 @@ export default async function Home() {
                       fill="#232323"
                     />
                   </svg>
-                  <p className="font-semibold">Показать фильтры</p>
-                </div>
+                  <span className="font-semibold">Показать фильтры</span>
+                </button>
                 <div className="flex gap-1 justify-between items-center">
                   <p className="font-semibold">Сначала:</p>
                   <div className="flex items-center justify-between gap-1">
